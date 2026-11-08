@@ -229,7 +229,7 @@ if ($result === false) {
                     ?>
                 </p>
             </div>
-            <a href="cadastro.php" class="btn btn-primary top">+ Cadastrar</a>
+            <a href="index.php" class="btn btn-primary top">+ Cadastrar</a>
         </header>
 
         <div class="table-card">
@@ -266,7 +266,7 @@ if ($result === false) {
                             <td colspan="4" class="empty">
                                 <strong>Nenhum aluno encontrado.</strong>
                                 <span>Cadastre o primeiro aluno para ele aparecer aqui.</span>
-                                <a href="cadastro.php" class="btn btn-primary">Cadastrar aluno</a>
+                                <a href="index.php" class="btn btn-primary">Cadastrar aluno</a>
                             </td>
                         </tr>
                     <?php endif; ?>
